@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;900&display=swap');
 
-/*
-Source Sans 3 is the most "neutral" free to use typeface with both
-alternates for the letters g, a, á and oldstyle numbers.
-
-The google fonts version (Source Sans Pro) lacks OTF features, so we
-host it locally.
-*/
-@font-face {
-  font-family: 'Source Sans 3';
-  font-weight: 400;
-  src: url('./font/SourceSans3-Regular.otf');
-}
-
 @import 'styles/variables.css';
 
 body {
