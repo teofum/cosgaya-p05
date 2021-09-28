@@ -1,0 +1,27 @@
+:root {
+  --color-base: rgb(31, 31, 31);
+  --color-base-light: rgb(40, 40, 40);
+  --color-base-lighter: rgb(47, 47, 47);
+  --color-base-dark: rgb(26, 26, 26);
+  --color-base-darker: rgb(20, 20, 20);
+
+  --color-accent: rgb(151, 215, 0);
+  --color-warn: rgb(216, 14, 18);
+  --color-warn-light: hsl(359, 75%, 60%);
+
+  --color-text: rgba(255, 255, 255, 1);
+  --color-text-light: rgba(255, 255, 255, 0.72);
+  --color-text-lighter: rgba(255, 255, 255, 0.38);
+  
+  --color-shadow: rgba(0, 0, 0, 0.5);
+  --color-shadow-light: rgba(0, 0, 0, 0.25);
+  --color-highlight: rgba(255, 255, 255, 0.2);
+  --color-highlight-accent: rgba(151, 215, 0, 0.25);
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
+  --border-radius-lg: 10px;
+  --border-radius-round: 50%;
+
+  --anim-duration-short: 150ms;
+}

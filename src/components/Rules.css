@@ -1,0 +1,29 @@
+ul.rules {
+  margin-left: -4.25em;
+  padding-left: 4em;
+  line-height: 1.5;
+}
+
+ul.rule-group {
+  margin-bottom: 0.5em;
+}
+
+li.rule {
+  padding-left: 0.25em;
+}
+
+.rule.passed {
+  color: var(--color-text);
+  list-style-type: '\2705';
+}
+
+.rule.failed {
+  color: var(--color-warn-light);
+  list-style-type: '\274C';
+}
+
+.rule.passed .rule.failed {
+  color: var(--color-text-lighter);
+  text-decoration: line-through;
+  list-style-type: '\2796';
+}

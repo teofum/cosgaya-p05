@@ -1,0 +1,13 @@
+.preview {
+  text-align: center;
+}
+
+.preview .characters {
+  font-family: 'Source Sans 3', sans-serif;
+  text-decoration: underline var(--color-text-lighter) 1px;
+}
+
+.preview .characters,
+.preview .all-passed {
+  font-size: 3.375em;
+}
