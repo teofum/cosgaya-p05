@@ -68,7 +68,7 @@ const rules: (Rule | RuleGroup)[] = [
     predicate: oneCharPerColumn
   },
   {
-    name: 'Tiene que haber un carácter de cada columna con fondo celeste',
+    name: 'Tiene que haber un carácter de las primeras dos columnas',
     predicate: requireColumns(requiredColumns)
   },
   {
